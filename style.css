@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 120px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 5px;
+
+
+}
+
+.music {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  color: lightcyan;
+  background-color: deepskyblue;
+  border: 5px darkblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/wp/wp3612579.png");
+  background-size: cover;
+  background-color: lightcyan;
+}
+
+.songs {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  margin: 0px;
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+
+}
+
+input:hover {
+  border: 5px solid white;
+  transition: 1.5s;
+}
+
+.promo {
+  font-size: 18px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+
+img {
+  height: 400px;
+  padding: 0px;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+a:hover {
+  color: pink;
+}
+
+a {
+  color: lightcyan;
+}
